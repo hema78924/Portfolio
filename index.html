@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hema Priya R | AI &amp; ML Student Portfolio</title>
+  <meta name="description" content="Portfolio of Hema Priya R, a first-year AI and Machine Learning student at Bangalore Institute of Technology." />
+  <meta property="og:title" content="Hema Priya R | AI &amp; ML Student Portfolio" />
+  <meta property="og:description" content="Aspiring AI and machine learning engineer who enjoys building clean, efficient solutions." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+
+  <!-- Google Fonts: the only external resource -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Press+Start+2P&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#top" class="nav-logo">Hema Priya R</a>
+
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <ul class="nav-links" id="nav-menu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+
+      <!-- Square pixel stars in the sky (decorative) -->
+      <svg class="hero-stars" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+        <g class="star-white">
+          <rect x="60" y="40" width="4" height="4" />
+          <rect x="210" y="120" width="3" height="3" />
+          <rect x="330" y="30" width="4" height="4" />
+          <rect x="455" y="160" width="3" height="3" />
+          <rect x="610" y="70" width="4" height="4" />
+          <rect x="760" y="20" width="3" height="3" />
+          <rect x="880" y="140" width="4" height="4" />
+          <rect x="1010" y="60" width="3" height="3" />
+          <rect x="1130" y="110" width="4" height="4" />
+          <rect x="140" y="250" width="3" height="3" />
+          <rect x="980" y="240" width="3" height="3" />
+          <rect x="700" y="210" width="3" height="3" />
+        </g>
+        <g class="star-pink twinkle">
+          <rect x="120" y="90" width="4" height="4" />
+          <rect x="520" y="40" width="4" height="4" />
+          <rect x="940" y="30" width="4" height="4" />
+          <rect x="1080" y="190" width="4" height="4" />
+        </g>
+        <g class="star-lavender twinkle twinkle-late">
+          <rect x="280" y="200" width="4" height="4" />
+          <rect x="400" y="90" width="3" height="3" />
+          <rect x="820" y="90" width="4" height="4" />
+          <rect x="1170" y="30" width="3" height="3" />
+          <rect x="40" y="180" width="3" height="3" />
+        </g>
+      </svg>
+
+      <div class="hero-inner container">
+        <!-- Left column: text -->
+        <div class="hero-text">
+          <p class="hero-tag">AI &amp; ML Student</p>
+          <h1 class="hero-title" id="hero-title">Hema Priya R</h1>
+          <p class="hero-intro">Hello, I'm Hema, an aspiring AI and machine learning engineer who enjoys building clean, efficient solutions.</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View my work</a>
+            <a href="#contact" class="btn btn-secondary">Contact me</a>
+          </div>
+        </div>
+
+        <!-- Right column: pixel-art student character (original, decorative) -->
+        <div class="hero-art">
+          <svg class="character" viewBox="0 0 32 52" shape-rendering="crispEdges" role="img" aria-label="Pixel-art student in a lavender hoodie holding a glowing laptop, standing on a block">
+            <!-- Sparkles -->
+            <g class="sparkle">
+              <rect x="3" y="10" width="1" height="1" /><rect x="2" y="11" width="3" height="1" /><rect x="3" y="12" width="1" height="1" />
+            </g>
+            <g class="sparkle sparkle-late">
+              <rect x="28" y="6" width="1" height="1" /><rect x="27" y="7" width="3" height="1" /><rect x="28" y="8" width="1" height="1" />
+            </g>
+            <g class="sparkle">
+              <rect x="29" y="22" width="1" height="1" />
+            </g>
+            <g class="sparkle sparkle-late">
+              <rect x="1" y="30" width="1" height="1" />
+            </g>
+
+            <!-- Head (skin) -->
+            <rect x="11" y="5" width="10" height="9" fill="#f1c7a8" />
+            <rect x="11" y="13" width="10" height="1" fill="#d9a88a" />
+            <!-- Hair -->
+            <rect x="10" y="1" width="12" height="1" fill="#14121f" />
+            <rect x="9" y="2" width="14" height="3" fill="#14121f" />
+            <rect x="9" y="5" width="2" height="8" fill="#14121f" />
+            <rect x="21" y="5" width="2" height="8" fill="#14121f" />
+            <rect x="11" y="5" width="4" height="1" fill="#14121f" />
+            <rect x="18" y="5" width="3" height="1" fill="#14121f" />
+            <!-- Pink hair clip -->
+            <rect x="18" y="2" width="3" height="2" fill="#ff7ac8" />
+            <rect x="18" y="2" width="1" height="1" fill="#ffc2e6" />
+            <!-- Face -->
+            <rect x="13" y="8" width="2" height="2" fill="#14121f" />
+            <rect x="17" y="8" width="2" height="2" fill="#14121f" />
+            <rect x="13" y="8" width="1" height="1" fill="#ecebf5" />
+            <rect x="17" y="8" width="1" height="1" fill="#ecebf5" />
+            <rect x="12" y="11" width="1" height="1" fill="#ff9fd6" />
+            <rect x="19" y="11" width="1" height="1" fill="#ff9fd6" />
+            <rect x="15" y="11" width="2" height="1" fill="#a8665a" />
+
+            <!-- Neck -->
+            <rect x="14" y="14" width="4" height="1" fill="#d9a88a" />
+
+            <!-- Hoodie -->
+            <rect x="11" y="14" width="2" height="1" fill="#a283e0" />
+            <rect x="19" y="14" width="2" height="1" fill="#a283e0" />
+            <rect x="9" y="15" width="14" height="14" fill="#c9a7ff" />
+            <rect x="9" y="15" width="1" height="14" fill="#a283e0" />
+            <rect x="22" y="15" width="1" height="14" fill="#a283e0" />
+            <rect x="14" y="15" width="1" height="3" fill="#ecebf5" />
+            <rect x="17" y="15" width="1" height="3" fill="#ecebf5" />
+            <!-- Arms -->
+            <rect x="6" y="16" width="3" height="10" fill="#a283e0" />
+            <rect x="23" y="16" width="3" height="10" fill="#a283e0" />
+            <rect x="6" y="16" width="1" height="10" fill="#8a6bcc" />
+            <rect x="25" y="16" width="1" height="10" fill="#8a6bcc" />
+
+            <!-- Laptop: lid + glowing pink screen -->
+            <rect x="10" y="18" width="12" height="8" fill="#2a2d4a" />
+            <rect x="11" y="19" width="10" height="6" fill="#ff7ac8" class="laptop-screen" />
+            <rect x="12" y="20" width="5" height="1" fill="#ffc2e6" />
+            <rect x="12" y="22" width="7" height="1" fill="#ffc2e6" />
+            <rect x="13" y="23" width="4" height="1" fill="#ffc2e6" />
+            <!-- Laptop: keyboard base -->
+            <rect x="8" y="26" width="16" height="2" fill="#4a4f7a" />
+            <rect x="8" y="28" width="16" height="1" fill="#1b1d33" />
+            <!-- Hands -->
+            <rect x="6" y="26" width="2" height="2" fill="#f1c7a8" />
+            <rect x="24" y="26" width="2" height="2" fill="#f1c7a8" />
+
+            <!-- Trousers -->
+            <rect x="11" y="29" width="10" height="2" fill="#1a1a26" />
+            <rect x="11" y="31" width="4" height="7" fill="#1a1a26" />
+            <rect x="17" y="31" width="4" height="7" fill="#1a1a26" />
+            <rect x="14" y="31" width="1" height="7" fill="#24243a" />
+            <rect x="20" y="31" width="1" height="7" fill="#24243a" />
+            <!-- Shoes -->
+            <rect x="10" y="38" width="5" height="2" fill="#0b0b12" />
+            <rect x="17" y="38" width="5" height="2" fill="#0b0b12" />
+
+            <!-- Cube: outline, top face, front face, side face -->
+            <rect x="4" y="40" width="24" height="12" fill="#05060d" />
+            <rect x="5" y="41" width="22" height="3" fill="#c9a7ff" />
+            <rect x="5" y="41" width="22" height="1" fill="#e4d4ff" />
+            <rect x="5" y="44" width="16" height="7" fill="#3b2f66" />
+            <rect x="5" y="44" width="16" height="1" fill="#6a55a8" />
+            <rect x="5" y="44" width="1" height="7" fill="#6a55a8" />
+            <rect x="21" y="44" width="6" height="7" fill="#1c1736" />
+            <rect x="9" y="47" width="2" height="1" fill="#55448f" />
+            <rect x="15" y="48" width="2" height="1" fill="#55448f" />
+            <rect x="23" y="47" width="1" height="1" fill="#2e2654" />
+          </svg>
+        </div>
+      </div>
+
+      <!-- Minecraft-style village silhouette (decorative) -->
+      <svg class="village" viewBox="0 0 1200 180" preserveAspectRatio="xMidYMax slice" shape-rendering="crispEdges" aria-hidden="true" focusable="false">
+        <defs>
+          <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="4" result="blur" />
+            <feMerge>
+              <feMergeNode in="blur" />
+              <feMergeNode in="SourceGraphic" />
+            </feMerge>
+          </filter>
+        </defs>
+
+        <!-- Back hills -->
+        <g class="v-back">
+          <rect x="0" y="128" width="1200" height="32" />
+          <rect x="0" y="118" width="180" height="10" />
+          <rect x="300" y="122" width="260" height="6" />
+          <rect x="700" y="116" width="200" height="12" />
+          <rect x="1000" y="120" width="200" height="8" />
+        </g>
+
+        <!-- Tree A -->
+        <rect class="v-trunk" x="44" y="128" width="12" height="32" />
+        <g class="v-leaves">
+          <rect x="20" y="88" width="60" height="44" />
+          <rect x="32" y="76" width="36" height="12" />
+        </g>
+        <rect class="v-hi-lav" x="32" y="92" width="8" height="8" />
+        <rect class="v-hi-pink" x="60" y="108" width="8" height="8" />
+
+        <!-- House 1 -->
+        <rect class="v-house" x="100" y="104" width="120" height="56" />
+        <g class="v-roof">
+          <rect x="92" y="96" width="136" height="8" />
+          <rect x="104" y="88" width="112" height="8" />
+          <rect x="116" y="80" width="88" height="8" />
+          <rect x="128" y="72" width="64" height="8" />
+          <rect x="140" y="64" width="40" height="8" />
+          <rect x="152" y="56" width="16" height="8" />
+        </g>
+        <g class="v-hi-lav">
+          <rect x="152" y="56" width="16" height="2" />
+          <rect x="92" y="96" width="12" height="2" />
+          <rect x="216" y="96" width="12" height="2" />
+        </g>
+        <g class="v-window" filter="url(#glow)">
+          <rect x="116" y="116" width="20" height="20" />
+          <rect x="184" y="116" width="20" height="20" />
+        </g>
+        <g class="v-pane">
+          <rect x="125" y="116" width="2" height="20" />
+          <rect x="116" y="125" width="20" height="2" />
+          <rect x="193" y="116" width="2" height="20" />
+          <rect x="184" y="125" width="20" height="2" />
+        </g>
+        <rect class="v-door" x="146" y="124" width="28" height="36" />
+        <rect class="v-hi-lav" x="166" y="142" width="3" height="3" />
+
+        <!-- Fence 1 -->
+        <g class="v-fence">
+          <rect x="226" y="132" width="6" height="28" />
+          <rect x="250" y="132" width="6" height="28" />
+          <rect x="274" y="132" width="6" height="28" />
+          <rect x="298" y="132" width="6" height="28" />
+          <rect x="322" y="132" width="6" height="28" />
+          <rect x="226" y="138" width="102" height="4" />
+          <rect x="226" y="150" width="102" height="4" />
+        </g>
+
+        <!-- Well -->
+        <rect class="v-house" x="340" y="132" width="60" height="28" />
+        <rect class="v-hi-lav" x="336" y="128" width="68" height="4" />
+        <g class="v-trunk">
+          <rect x="346" y="96" width="6" height="32" />
+          <rect x="388" y="96" width="6" height="32" />
+        </g>
+        <g class="v-roof">
+          <rect x="336" y="88" width="68" height="8" />
+          <rect x="348" y="80" width="44" height="8" />
+        </g>
+        <rect class="v-pane" x="369" y="96" width="2" height="12" />
+        <rect class="v-window" x="365" y="108" width="10" height="10" filter="url(#glow)" />
+
+        <!-- Tree B -->
+        <rect class="v-trunk" x="448" y="124" width="12" height="36" />
+        <g class="v-leaves">
+          <rect x="420" y="80" width="68" height="48" />
+          <rect x="432" y="68" width="44" height="12" />
+        </g>
+        <rect class="v-hi-pink" x="436" y="88" width="8" height="8" />
+        <rect class="v-hi-lav" x="468" y="104" width="8" height="8" />
+
+        <!-- Tower -->
+        <rect class="v-house" x="520" y="40" width="72" height="120" />
+        <g class="v-roof">
+          <rect x="512" y="32" width="88" height="10" />
+          <rect x="512" y="20" width="14" height="12" />
+          <rect x="537" y="20" width="14" height="12" />
+          <rect x="561" y="20" width="14" height="12" />
+          <rect x="586" y="20" width="14" height="12" />
+        </g>
+        <g class="v-hi-lav">
+          <rect x="512" y="20" width="14" height="2" />
+          <rect x="537" y="20" width="14" height="2" />
+          <rect x="561" y="20" width="14" height="2" />
+          <rect x="586" y="20" width="14" height="2" />
+        </g>
+        <rect class="v-window" x="546" y="56" width="20" height="24" filter="url(#glow)" />
+        <rect class="v-window-lav" x="546" y="96" width="20" height="20" />
+        <rect class="v-pane" x="555" y="56" width="2" height="24" />
+        <rect class="v-door" x="540" y="128" width="32" height="32" />
+
+        <!-- House 2 (large) -->
+        <rect class="v-trunk" x="740" y="52" width="14" height="28" />
+        <rect class="v-house" x="630" y="96" width="140" height="64" />
+        <g class="v-roof">
+          <rect x="622" y="88" width="156" height="8" />
+          <rect x="634" y="80" width="132" height="8" />
+          <rect x="646" y="72" width="108" height="8" />
+          <rect x="658" y="64" width="84" height="8" />
+          <rect x="670" y="56" width="60" height="8" />
+          <rect x="682" y="48" width="36" height="8" />
+          <rect x="694" y="40" width="12" height="8" />
+        </g>
+        <g class="v-hi-pink">
+          <rect x="694" y="40" width="12" height="2" />
+          <rect x="622" y="88" width="12" height="2" />
+          <rect x="766" y="88" width="12" height="2" />
+        </g>
+        <g class="v-window" filter="url(#glow)">
+          <rect x="648" y="110" width="22" height="22" />
+          <rect x="730" y="110" width="22" height="22" />
+        </g>
+        <g class="v-pane">
+          <rect x="658" y="110" width="2" height="22" />
+          <rect x="648" y="120" width="22" height="2" />
+          <rect x="740" y="110" width="2" height="22" />
+          <rect x="730" y="120" width="22" height="2" />
+        </g>
+        <rect class="v-door" x="688" y="120" width="26" height="40" />
+        <rect class="v-hi-lav" x="706" y="140" width="3" height="3" />
+
+        <!-- Fence 2 -->
+        <g class="v-fence">
+          <rect x="782" y="132" width="6" height="28" />
+          <rect x="806" y="132" width="6" height="28" />
+          <rect x="830" y="132" width="6" height="28" />
+          <rect x="854" y="132" width="6" height="28" />
+          <rect x="878" y="132" width="6" height="28" />
+          <rect x="782" y="138" width="102" height="4" />
+          <rect x="782" y="150" width="102" height="4" />
+        </g>
+
+        <!-- Tree C -->
+        <rect class="v-trunk" x="920" y="124" width="12" height="36" />
+        <g class="v-leaves">
+          <rect x="892" y="76" width="68" height="52" />
+          <rect x="904" y="64" width="44" height="12" />
+        </g>
+        <rect class="v-hi-lav" x="904" y="84" width="8" height="8" />
+        <rect class="v-hi-pink" x="940" y="108" width="8" height="8" />
+
+        <!-- House 3 (small) -->
+        <rect class="v-house" x="980" y="112" width="100" height="48" />
+        <g class="v-roof">
+          <rect x="972" y="104" width="116" height="8" />
+          <rect x="984" y="96" width="92" height="8" />
+          <rect x="996" y="88" width="68" height="8" />
+          <rect x="1008" y="80" width="44" height="8" />
+          <rect x="1020" y="72" width="20" height="8" />
+        </g>
+        <rect class="v-hi-lav" x="1020" y="72" width="20" height="2" />
+        <rect class="v-window" x="996" y="124" width="18" height="18" filter="url(#glow)" />
+        <rect class="v-pane" x="1004" y="124" width="2" height="18" />
+        <rect class="v-door" x="1040" y="124" width="22" height="36" />
+
+        <!-- Tree D -->
+        <rect class="v-trunk" x="1136" y="128" width="12" height="32" />
+        <g class="v-leaves">
+          <rect x="1110" y="92" width="64" height="40" />
+          <rect x="1122" y="80" width="40" height="12" />
+        </g>
+        <rect class="v-hi-pink" x="1150" y="98" width="8" height="8" />
+
+        <!-- Ground -->
+        <rect class="v-ground" x="0" y="160" width="1200" height="20" />
+        <rect class="v-grass" x="0" y="160" width="1200" height="4" />
+        <g class="v-hi-lav">
+          <rect x="80" y="168" width="4" height="4" />
+          <rect x="390" y="172" width="4" height="4" />
+          <rect x="610" y="168" width="4" height="4" />
+          <rect x="860" y="172" width="4" height="4" />
+          <rect x="1090" y="168" width="4" height="4" />
+        </g>
+      </svg>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <h2 class="section-title" id="about-title">About</h2>
+        <div class="about-card panel">
+          <p class="about-bio">
+            I'm a first-year B.E. student in Artificial Intelligence and Machine Learning at Bangalore Institute of Technology (BIT).
+            I'm building a strong foundation in programming and problem solving, with the goal of creating practical, intelligent software.
+          </p>
+          <h3 class="skills-title">Skills</h3>
+          <ul class="skills" aria-label="Skills">
+            <li class="chip chip-pink">C</li>
+            <li class="chip chip-lavender">HTML</li>
+            <li class="chip chip-pink">JavaScript</li>
+            <li class="chip chip-lavender">DSA</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 class="section-title" id="projects-title">Projects</h2>
+        <!-- Cards are inserted here by script.js (see the projects array) -->
+        <div class="projects-grid" id="projects-grid"></div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 class="section-title" id="contact-title">Contact</h2>
+        <div class="contact-layout">
+
+          <form class="contact-form panel" id="contact-form" novalidate>
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required maxlength="100" autocomplete="name" aria-describedby="name-error" />
+              <p class="field-error" id="name-error" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required maxlength="255" autocomplete="email" aria-describedby="email-error" />
+              <p class="field-error" id="email-error" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required maxlength="1000" aria-describedby="message-error"></textarea>
+              <p class="field-error" id="message-error" aria-live="polite"></p>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+
+          <aside class="contact-info panel" aria-label="Other ways to reach me">
+            <h3 class="contact-info-title">Say hello</h3>
+            <p class="muted">Prefer email? Write to me directly.</p>
+            <a class="contact-email" href="mailto:hemapriya.r.05@gmail.com">hemapriya.r.05@gmail.com</a>
+            <div class="social-links">
+              <a class="btn btn-small" href="https://github.com/hema78924" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile (opens in a new tab)">GitHub</a>
+              <a class="btn btn-small" href="https://www.linkedin.com/in/hema-priya05/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile (opens in a new tab)">LinkedIn</a>
+            </div>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <p>&copy; 2026 Hema Priya R</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
